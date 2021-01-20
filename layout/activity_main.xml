@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center|center_vertical"
+    android:background="#C8A3ED"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/co"
+        android:layout_width="703dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:background="#B0ECF1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/dictamaths"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/info"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="0dp"
+        android:tint="#130E0E"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:contentDescription="@string/information_sur_les_r_gle_de_l_application" />
+
+    <ImageButton
+        android:id="@+id/go"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:tint="#120B0B"
+        app:srcCompat="@android:drawable/ic_media_play"
+        android:contentDescription="@string/aller_sur_la_seconde_page" />
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="364dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="265dp"
+
+        android:text="@string/intro"
+        android:textColor="#0E0E0E"
+        android:textSize="18sp" />
+
+</RelativeLayout>

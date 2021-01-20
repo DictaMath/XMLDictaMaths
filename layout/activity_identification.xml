@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center|center_vertical"
+    android:background="#C8A3ED"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/co"
+        android:layout_width="703dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:background="#B0ECF1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/titre2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/nom"
+        android:textColor="#171616"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/NomToEnter"
+        style="@android:style/Widget.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:visibility="visible"
+        android:autofillHints=""
+        />
+
+    <TextView
+        android:id="@+id/mdp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:text="@string/mot_de_passe"
+        android:textColor="#171616"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="90dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/buttonCo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="#B0ECF1"
+        android:text="@string/ok"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/inscription"
+        android:layout_width="703dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="275dp"
+        android:background="#B0ECF1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/inscription"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="@string/mail_tudiant"
+        android:textColor="#131212"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="340dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#121111"
+        android:autofillHints=""
+        android:layout_marginStart="140dp" />
+
+    <TextView
+        android:id="@+id/numeroEtudiant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:text="@string/num_ro_tudiant"
+        android:textColor="#131212"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/NumeroEtudiant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#121111" />
+    <TextView
+        android:id="@+id/mdp2"
+        android:layout_width="147dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="430dp"
+        android:text="Mot de passe"
+        android:textColor="#171616"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Password2"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="400dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="#B0ECF1"
+        android:text="S'inscrire"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
